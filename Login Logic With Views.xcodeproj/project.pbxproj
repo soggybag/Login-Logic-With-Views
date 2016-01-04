@@ -13,6 +13,9 @@
 		7B825C3E1C3ABAA700BFBF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B825C3D1C3ABAA700BFBF6E /* Assets.xcassets */; };
 		7B825C411C3ABAA700BFBF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B825C3F1C3ABAA700BFBF6E /* LaunchScreen.storyboard */; };
 		7B825C4C1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C4B1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift */; };
+		7B825C571C3ABCCC00BFBF6E /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C561C3ABCCC00BFBF6E /* LoginManager.swift */; };
+		7B825C591C3AC0FF00BFBF6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C581C3AC0FF00BFBF6E /* LoginViewController.swift */; };
+		7B825C5B1C3AC10700BFBF6E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C5A1C3AC10700BFBF6E /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7B825C471C3ABAA700BFBF6E /* Login Logic With ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Logic With ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B825C4B1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Logic_With_ViewsUITests.swift; sourceTree = "<group>"; };
 		7B825C4D1C3ABAA700BFBF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B825C561C3ABCCC00BFBF6E /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		7B825C581C3AC0FF00BFBF6E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7B825C5A1C3AC10700BFBF6E /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				7B825C361C3ABAA700BFBF6E /* AppDelegate.swift */,
 				7B825C381C3ABAA700BFBF6E /* ViewController.swift */,
 				7B825C3A1C3ABAA700BFBF6E /* Main.storyboard */,
+				7B825C581C3AC0FF00BFBF6E /* LoginViewController.swift */,
+				7B825C5A1C3AC10700BFBF6E /* RegisterViewController.swift */,
+				7B825C561C3ABCCC00BFBF6E /* LoginManager.swift */,
 				7B825C3D1C3ABAA700BFBF6E /* Assets.xcassets */,
 				7B825C3F1C3ABAA700BFBF6E /* LaunchScreen.storyboard */,
 				7B825C421C3ABAA700BFBF6E /* Info.plist */,
@@ -197,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B825C591C3AC0FF00BFBF6E /* LoginViewController.swift in Sources */,
+				7B825C5B1C3AC10700BFBF6E /* RegisterViewController.swift in Sources */,
 				7B825C391C3ABAA700BFBF6E /* ViewController.swift in Sources */,
 				7B825C371C3ABAA700BFBF6E /* AppDelegate.swift in Sources */,
+				7B825C571C3ABCCC00BFBF6E /* LoginManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

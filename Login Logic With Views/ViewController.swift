@@ -12,14 +12,32 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if LoginManager.sharedInstance.isLoggedIn == false {
+            print("Not logged in show the login view as a modal")
+            showLogin()
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    func showLogin() {
+        if let login = storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") {
+            presentViewController(login, animated: true, completion: nil)
+        }
+    }
+    
 
+    func showRegister() {
+        if let register = storyboard?.instantiateViewControllerWithIdentifier("RegisterViewController") {
+            presentViewController(register, animated: true, completion: nil)
+        }
+    }
 
 }
 
