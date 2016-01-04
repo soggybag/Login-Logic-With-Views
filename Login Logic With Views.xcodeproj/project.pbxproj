@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B825C371C3ABAA700BFBF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C361C3ABAA700BFBF6E /* AppDelegate.swift */; };
+		7B825C391C3ABAA700BFBF6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C381C3ABAA700BFBF6E /* ViewController.swift */; };
+		7B825C3C1C3ABAA700BFBF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B825C3A1C3ABAA700BFBF6E /* Main.storyboard */; };
+		7B825C3E1C3ABAA700BFBF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B825C3D1C3ABAA700BFBF6E /* Assets.xcassets */; };
+		7B825C411C3ABAA700BFBF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B825C3F1C3ABAA700BFBF6E /* LaunchScreen.storyboard */; };
+		7B825C4C1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B825C4B1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B825C481C3ABAA700BFBF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B825C2B1C3ABAA700BFBF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B825C321C3ABAA700BFBF6E;
+			remoteInfo = "Login Logic With Views";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B825C331C3ABAA700BFBF6E /* Login Logic With Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Logic With Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B825C361C3ABAA700BFBF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B825C381C3ABAA700BFBF6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B825C3B1C3ABAA700BFBF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B825C3D1C3ABAA700BFBF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B825C401C3ABAA700BFBF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B825C421C3ABAA700BFBF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B825C471C3ABAA700BFBF6E /* Login Logic With ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Logic With ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B825C4B1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Logic_With_ViewsUITests.swift; sourceTree = "<group>"; };
+		7B825C4D1C3ABAA700BFBF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B825C301C3ABAA700BFBF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B825C441C3ABAA700BFBF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B825C2A1C3ABAA700BFBF6E = {
+			isa = PBXGroup;
+			children = (
+				7B825C351C3ABAA700BFBF6E /* Login Logic With Views */,
+				7B825C4A1C3ABAA700BFBF6E /* Login Logic With ViewsUITests */,
+				7B825C341C3ABAA700BFBF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B825C341C3ABAA700BFBF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B825C331C3ABAA700BFBF6E /* Login Logic With Views.app */,
+				7B825C471C3ABAA700BFBF6E /* Login Logic With ViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B825C351C3ABAA700BFBF6E /* Login Logic With Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B825C361C3ABAA700BFBF6E /* AppDelegate.swift */,
+				7B825C381C3ABAA700BFBF6E /* ViewController.swift */,
+				7B825C3A1C3ABAA700BFBF6E /* Main.storyboard */,
+				7B825C3D1C3ABAA700BFBF6E /* Assets.xcassets */,
+				7B825C3F1C3ABAA700BFBF6E /* LaunchScreen.storyboard */,
+				7B825C421C3ABAA700BFBF6E /* Info.plist */,
+			);
+			path = "Login Logic With Views";
+			sourceTree = "<group>";
+		};
+		7B825C4A1C3ABAA700BFBF6E /* Login Logic With ViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B825C4B1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift */,
+				7B825C4D1C3ABAA700BFBF6E /* Info.plist */,
+			);
+			path = "Login Logic With ViewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B825C321C3ABAA700BFBF6E /* Login Logic With Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B825C501C3ABAA700BFBF6E /* Build configuration list for PBXNativeTarget "Login Logic With Views" */;
+			buildPhases = (
+				7B825C2F1C3ABAA700BFBF6E /* Sources */,
+				7B825C301C3ABAA700BFBF6E /* Frameworks */,
+				7B825C311C3ABAA700BFBF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Logic With Views";
+			productName = "Login Logic With Views";
+			productReference = 7B825C331C3ABAA700BFBF6E /* Login Logic With Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B825C461C3ABAA700BFBF6E /* Login Logic With ViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B825C531C3ABAA700BFBF6E /* Build configuration list for PBXNativeTarget "Login Logic With ViewsUITests" */;
+			buildPhases = (
+				7B825C431C3ABAA700BFBF6E /* Sources */,
+				7B825C441C3ABAA700BFBF6E /* Frameworks */,
+				7B825C451C3ABAA700BFBF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B825C491C3ABAA700BFBF6E /* PBXTargetDependency */,
+			);
+			name = "Login Logic With ViewsUITests";
+			productName = "Login Logic With ViewsUITests";
+			productReference = 7B825C471C3ABAA700BFBF6E /* Login Logic With ViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B825C2B1C3ABAA700BFBF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7B825C321C3ABAA700BFBF6E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7B825C461C3ABAA700BFBF6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B825C321C3ABAA700BFBF6E;
+					};
+				};
+			};
+			buildConfigurationList = 7B825C2E1C3ABAA700BFBF6E /* Build configuration list for PBXProject "Login Logic With Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B825C2A1C3ABAA700BFBF6E;
+			productRefGroup = 7B825C341C3ABAA700BFBF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B825C321C3ABAA700BFBF6E /* Login Logic With Views */,
+				7B825C461C3ABAA700BFBF6E /* Login Logic With ViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B825C311C3ABAA700BFBF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B825C411C3ABAA700BFBF6E /* LaunchScreen.storyboard in Resources */,
+				7B825C3E1C3ABAA700BFBF6E /* Assets.xcassets in Resources */,
+				7B825C3C1C3ABAA700BFBF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B825C451C3ABAA700BFBF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B825C2F1C3ABAA700BFBF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B825C391C3ABAA700BFBF6E /* ViewController.swift in Sources */,
+				7B825C371C3ABAA700BFBF6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B825C431C3ABAA700BFBF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B825C4C1C3ABAA700BFBF6E /* Login_Logic_With_ViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B825C491C3ABAA700BFBF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B825C321C3ABAA700BFBF6E /* Login Logic With Views */;
+			targetProxy = 7B825C481C3ABAA700BFBF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B825C3A1C3ABAA700BFBF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B825C3B1C3ABAA700BFBF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B825C3F1C3ABAA700BFBF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B825C401C3ABAA700BFBF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B825C4E1C3ABAA700BFBF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B825C4F1C3ABAA700BFBF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B825C511C3ABAA700BFBF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login Logic With Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Login-Logic-With-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B825C521C3ABAA700BFBF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login Logic With Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Login-Logic-With-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B825C541C3ABAA700BFBF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login Logic With ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Login-Logic-With-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login Logic With Views";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7B825C551C3ABAA700BFBF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login Logic With ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.Login-Logic-With-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login Logic With Views";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B825C2E1C3ABAA700BFBF6E /* Build configuration list for PBXProject "Login Logic With Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B825C4E1C3ABAA700BFBF6E /* Debug */,
+				7B825C4F1C3ABAA700BFBF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B825C501C3ABAA700BFBF6E /* Build configuration list for PBXNativeTarget "Login Logic With Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B825C511C3ABAA700BFBF6E /* Debug */,
+				7B825C521C3ABAA700BFBF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B825C531C3ABAA700BFBF6E /* Build configuration list for PBXNativeTarget "Login Logic With ViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B825C541C3ABAA700BFBF6E /* Debug */,
+				7B825C551C3ABAA700BFBF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B825C2B1C3ABAA700BFBF6E /* Project object */;
+}
