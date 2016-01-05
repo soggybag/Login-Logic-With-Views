@@ -1,4 +1,4 @@
-* Simple Login and Register Navigation Scheme
+#Simple Login and Register Navigation Scheme
 
 This example illustrates a system to present a login and register View Controller in an app. The system presents the login or register View Controllers as a modal. As a modal these View controller will appear on top of the current content, and are not part of the current Navigation Controller. 
 
