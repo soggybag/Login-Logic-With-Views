@@ -4,6 +4,8 @@ This example illustrates a system to present a login and register View Controlle
 
 [Video Tutorials](https://www.youtube.com/watch?v=uKXyLmYA0-c&list=PLoN_ejT35AEipRnSHSv5wlHGyjOnHReqx). This Youtube playlist covers building the example from scratch. 
 
+![screenshot](Screenshot.png)
+
 ##Overview
 
 ###Present Modal vs Show
